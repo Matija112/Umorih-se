@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<title>Microsoft</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+<link rel="stylesheet" href="http://www.w3schools.com/lib/w3-theme-black.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+.w3-sidenav a,.w3-sidenav h4 {padding: 12px;}
+.w3-navbar li a {
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <ul class="w3-navbar w3-theme w3-top w3-left-align w3-large">
+    <li class="w3-opennav w3-right w3-hide-large">
+      <a class="w3-hover-white w3-large w3-theme-l1" href="javascript:void(0)" onclick="w3_open()"><i class="fa fa-bars"></i></a>
+    </li>
+    <li><img src="http://betanews.com/wp-content/uploads/2022/08/Microsoft-Logo1.jpg" style="width:49px;height:49px;"></li>
+    <li><a href="#" class="w3-theme-l1">Home</a></li>
+    <li class="w3-hide-small"><a href="https://www.microsoftstore.com/store/msmea/hr_BA/cat/Office/categoryID.69943700" class="w3-hover-white">Microsoft Office</a></li>
+    <li class="w3-hide-small"><a href="https://www.microsoftstore.com/store/msusa/en_US/home" class="w3-hover-white">Microsoft Store</a></li>
+    <li class="w3-hide-small"><a href="https://support.microsoft.com/en-us" class="w3-hover-white">Support</a></li>
+  </ul>
+</div>
+
+<!-- Sidenav -->
+<nav class="w3-sidenav w3-collapse w3-theme-l5 w3-animate-left" style="z-index:3;width:250px;margin-top:51px;" id="mySidenav">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-right w3-xlarge w3-padding-large w3-hover-black w3-hide-large" title="close menu">
+    <i class="fa fa-remove"></i>
+  </a>
+  <h4><b>Menu</b></h4>
+  <a href="http://www.onenote.com/?omkt=bs-ba?Wt.mc_id=oan_mscom_prog_onenote_evergreen" class="w3-hover-black">One Note</a>
+  <a href="https://sway.com/?omkt=bs-ba&Wt.mc_id=OAN_mscom_prog_sway_evergreen" class="w3-hover-black">Sway</a>
+  <a href="https://www.skype.com/en/download-skype/skype-for-computer/?Wt.mc_id=oan_mscom_prog_skype_evergreen" class="w3-hover-black">Skype</a>
+</nav>
+
+<!-- Overlay effect when opening sidenav on small screens -->
+<div class="w3-overlay w3-hide-large" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- Main content: shift it to the right by 250 pixels when the sidenav is visible -->
+<div class="w3-main" style="margin-left:250px">
+
+  <div class="w3-row w3-padding-64">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">Our Products</h1>
+      <p>Our Products consist of: various software ex:Microsoft office, Skype, Microsoft Sway and others; various devices ex:The XBox, The Surface, our various tablets and phones;Below the menu,you will be directely redictered to these products.</p>
+    </div>
+   
+
+  <div class="w3-row">
+    <div class="w3-twothird w3-container">
+      <h1 class="w3-text-teal">Windows Vista, mobile, and Windows 7</h1>
+      <p>Released in January 2007, the next version of Windows, Windows Vista, focused on features, security and a redesigned user interface dubbed Aero.[52][53] Microsoft Office 2007, released at the same time, featured a "Ribbon" user interface which was a significant departure from its predecessors. Relatively strong sales of both titles helped to produce a record profit in 2007.[54] The European Union imposed another fine of €899 million ($1.4 billion) for Microsoft's lack of compliance with the March 2004 judgment on February 27, 2008, saying that the company charged rivals unreasonable prices for key information about its workgroup and backoffice servers. Microsoft stated that it was in compliance and that "these fines are about the past issues that have been resolved".[55] 2007 also saw the creation of a multi-core unit at Microsoft, as they followed in the steps of server companies such as Sun and IBM.[56]
+
+Gates retired from his role as Chief Software Architect on June 27, 2008, a decision announced in June 2006, while retaining other positions related to the company in addition to being an advisor for the company on key projects.[57][58] Azure Services Platform, the company's entry into the cloud computing market for Windows, launched on October 27, 2008.[59] On February 12, 2009, Microsoft announced its intent to open a chain of Microsoft-branded retail stores, and on October 22, 2009, the first retail Microsoft Store opened in Scottsdale, Arizona; the same day the first store opened, Windows 7 was officially released to the public. Windows 7's focus was on refining Vista with ease of use features and performance enhancements, rather than a large reworking of Windows.[60][61][62]
+
+
+    </div>
+   
+
+  
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-64">
+    <ul class="w3-pagination">
+      <li><a class="w3-hover-black" href="Microsoft.html">1</a></li>
+      <li><a class="w3-black" href="Microsoft2.html">2</a></li>
+      <li><a class="w3-hover-black" href="Microsoft3.html">3</a></li>
+      <li><a class="w3-hover-black" href="Microsoft4.html">4</a></li>
+    </ul>
+  </div>
+
+  <footer id="myFooter">
+    <div class="w3-container w3-theme-l2 w3-padding-32">
+      </div>
+
+    <div class="w3-container w3-theme-l1">
+   
+    </div>
+  </footer>
+
+<!-- END MAIN -->
+</div>
+
+<script>
+// Get the Sidenav
+var mySidenav = document.getElementById("mySidenav");
+// Get the DIV with overlay effect
+var overlayBg = document.getElementById("myOverlay");
+// Toggle between showing and hiding the sidenav, and add overlay effect
+function w3_open() {
+    if (mySidenav.style.display === 'block') {
+        mySidenav.style.display = 'none';
+        overlayBg.style.display = "none";
+    } else {
+        mySidenav.style.display = 'block';
+        overlayBg.style.display = "block";
+    }
+}
+// Close the sidenav with the close button
+function w3_close() {
+    mySidenav.style.display = "none";
+    overlayBg.style.display = "none";
+}
+</script>
+
+</body>
+</html>
